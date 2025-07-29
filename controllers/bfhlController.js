@@ -9,7 +9,7 @@ const DOB = "03112003";
 const EMAIL = "paramveer2019.be22@chitkara.edu.in";
 const ROLL_NUMBER = "2210992019";
 
-module.export = (req, res) => {
+module.exports = (req, res) => {
   try {
     const data = req.body.data || [];
     let even_numbers = [];
